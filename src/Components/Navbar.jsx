@@ -22,7 +22,16 @@ const Navbar = () => {
         alt="Netflix-Logo"
         className="nav_logo"
       />
-      <img src={require("../avatar.png")} alt="Avatar" className="nav_avatar" />
+      <a
+        href="https://www.linkedin.com/in/shamsad-alam-272740209/"
+        target="_shamsad"
+      >
+        <img
+          src={require("../avatar.png")}
+          alt="Avatar"
+          className="nav_avatar"
+        />
+      </a>
     </div>
   );
 };
